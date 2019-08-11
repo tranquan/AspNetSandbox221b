@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenterWebJob", "CenterWebJo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenterWebJobTrigger", "CenterWebJobTrigger\CenterWebJobTrigger.csproj", "{93959980-F3B8-424C-A85F-616679DB3851}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Version2WebJob", "Version2WebJob\Version2WebJob.csproj", "{3B638C98-53EF-48E2-A36A-CEBF0D88302E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebJobs", "WebJobs", "{D57CDB7C-BEFA-4908-9760-400C8099B831}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +31,18 @@ Global
 		{93959980-F3B8-424C-A85F-616679DB3851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93959980-F3B8-424C-A85F-616679DB3851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93959980-F3B8-424C-A85F-616679DB3851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B638C98-53EF-48E2-A36A-CEBF0D88302E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B638C98-53EF-48E2-A36A-CEBF0D88302E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B638C98-53EF-48E2-A36A-CEBF0D88302E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B638C98-53EF-48E2-A36A-CEBF0D88302E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E332758B-8E10-4918-9039-FEE82AEE49CA} = {D57CDB7C-BEFA-4908-9760-400C8099B831}
+		{93959980-F3B8-424C-A85F-616679DB3851} = {D57CDB7C-BEFA-4908-9760-400C8099B831}
+		{3B638C98-53EF-48E2-A36A-CEBF0D88302E} = {D57CDB7C-BEFA-4908-9760-400C8099B831}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B49AC8CB-5533-4DEA-9960-8360638636D1}
